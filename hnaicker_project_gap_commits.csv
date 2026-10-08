@@ -1,0 +1,348 @@
+pre/post;project;commit;author;time;message;Month
+pre;tyiannak_pyaudioanalysis;756adcc5d1e9b4c29419a9e373d6151cf1476474;Theodoros Giannakopoulos <tyiannak@gmail.com>;2022-04-19 21:25:45;"minor fix in aggregated similarity
+";2022-04
+pre;tyiannak_pyaudioanalysis;71c67d921aa0d059b57e95103d08aaf35c177efa;Theodoros Giannakopoulos <tyiannak@gmail.com>;2022-04-19 21:26:51;"Merge branch 'master' of https://github.com/tyiannak/pyAudioAnalysis
+";2022-04
+pre;tyiannak_pyaudioanalysis;52c3de799fa4a6a05a22324a63ab03474ee3fb04;Theodoros Giannakopoulos <tyiannak@gmail.com>;2022-05-09 20:56:02;Update README.md;2022-05
+pre;tyiannak_pyaudioanalysis;06cca91a73236cf70651b688faa73e822bd450c2;Tim Gates <tim.gates@iress.com>;2022-07-02 13:10:52;"docs: Fix a few typos
+
+There are small typos in:
+- pyAudioAnalysis/ShortTermFeatures.py
+- pyAudioAnalysis/audioSegmentation.py
+- pyAudioAnalysis/audioTrainTest.py
+
+Fixes:
+- Should read `plotted` rather than `ploted`.
+- Should read `optional` rather than `optinal`.
+- Should read `exactly` rather than `exacty`.
+";2022-07
+pre;tyiannak_pyaudioanalysis;fa73d3fa91b828cbdf775de6957c10ee15d95bde;Francesco Manfredi <francescomanfrediwd@gmail.com>;2022-07-14 21:42:02;"signal shape check in read_audio_generic
+";2022-07
+pre;tyiannak_pyaudioanalysis;fb3353b15450ba5e14859ac110d104f361fb9155;John Yeung <cfyeung2357@gmail.com>;2022-09-18 05:39:11;"added helper functions to convert audio files with .segment files to class folders with audio segments of that class, directly usable by other classifiers for example SVM in audacityAnnotation2WAV.py, fixed a bug in audioTrainTest.py where error occur if class folder contains only 1 sample, corrected doc-string in audioSegmentation.mid_term_file_classification
+";2022-09
+pre;tyiannak_pyaudioanalysis;aa4318b0a5720e72f89414325004ddfc05b4258a;John Yeung <cfyeung2357@gmail.com>;2022-09-18 06:13:12;"removed extra print in audacityAnnotation2WAV.annotation2folders, now use os.path.split to extract the audio filename
+";2022-09
+pre;tyiannak_pyaudioanalysis;a93856452a6cb29130b43aa6ef4d44ec55f3b6d3;John Yeung <cfyeung2357@gmail.com>;2022-09-18 06:15:08;"removed extra print in audacityAnnotation2WAV.annotation2folders, now use os.path.split to extract the audio filename
+";2022-09
+pre;tyiannak_pyaudioanalysis;bb624ac20fe98c1006af12861858d66fbd4b0f9e;Theodoros Giannakopoulos <tyiannak@gmail.com>;2022-09-18 19:55:03;"Merge pull request #379 from JohnYeung-dojjy/fix_issue_378_and_more
+
+helper function for segment to classfolder , fix #378 and corrected doc-string comment";2022-09
+pre;tyiannak_pyaudioanalysis;0fd7c5b6d9a965333c057712a9b44759ba5e0421;mengtongun <unmengtong@gmail.com>;2022-11-14 14:51:02;"#380 plot value error on silence removal
+";2022-11
+post;tyiannak_pyaudioanalysis;b0e290ff969e28f8a504937573e2f63041bbb2a2;Frankie Eder <frankieeder@ozone.pro>;2023-09-29 00:25:44;"Relax pandas constraint.
+";2023-09
+post;tyiannak_pyaudioanalysis;504c40a7bd0375d29e31cb5013346d5282bbf68e;Frankie Eder <frankieeder@ozone.pro>;2023-09-29 00:30:14;"Relax plotly constraint.
+";2023-09
+post;tyiannak_pyaudioanalysis;746541af2c55f97571b1d5bbcc7b82402e2c8d8d;Frankie Eder <frankieeder@ozone.pro>;2023-09-29 01:13:31;"Relaxed all.
+";2023-09
+post;tyiannak_pyaudioanalysis;ae00ebd446d497dbbb654c40a71810e7fdf2cc1b;Theodoros Giannakopoulos <tyiannak@gmail.com>;2023-10-22 09:33:23;"Merge pull request #391 from frankieeder/frankieeder/requirements
+
+Relax requirements constraints";2023-10
+post;tyiannak_pyaudioanalysis;079935ea24765da44d52fc8824fda508b14db49a;SaTy <unmengtong@gmail.com>;2023-10-27 18:16:04;"Merge 0fd7c5b6d9a965333c057712a9b44759ba5e0421 into ae00ebd446d497dbbb654c40a71810e7fdf2cc1b
+";2023-10
+post;tyiannak_pyaudioanalysis;a99c3d393cff4b9b9e4f50611d184eaac833ef33;Tim Gates <tim.gates@iress.com>;2023-10-31 04:10:46;"Merge 06cca91a73236cf70651b688faa73e822bd450c2 into ae00ebd446d497dbbb654c40a71810e7fdf2cc1b
+";2023-10
+post;tyiannak_pyaudioanalysis;fa3c95a30d2b6c515f441b88d70270da019dcd01;justinbacle <justin.bacle@gmail.com>;2023-10-31 04:10:46;"Merge 9c60875b5831c923dba0fbb40c2450421b2a2d9d into ae00ebd446d497dbbb654c40a71810e7fdf2cc1b
+";2023-10
+post;tyiannak_pyaudioanalysis;04ab7723e42b2bb0c7f21adb1f91b14a69a2888f;Francesco Manfredi <francescomanfrediwd@gmail.com>;2023-10-31 04:10:46;"Merge fa73d3fa91b828cbdf775de6957c10ee15d95bde into ae00ebd446d497dbbb654c40a71810e7fdf2cc1b
+";2023-10
+post;tyiannak_pyaudioanalysis;7db34aa279ead98c5892ea2ffe1dff510f16faf0;michabs <michabs@gmail.com>;2023-10-31 04:10:46;"Merge 3eeac74fbe1228cf4fb532cafe0a2a730781a07a into ae00ebd446d497dbbb654c40a71810e7fdf2cc1b
+";2023-10
+post;tyiannak_pyaudioanalysis;66c08b506af33c506590d78946be96c4fd0be7b8;Fran <f.spigel@gmail.com>;2023-10-31 04:10:46;"Merge 63beba246193d0b82f09fe37e2858cf4d9078d15 into ae00ebd446d497dbbb654c40a71810e7fdf2cc1b
+";2023-10
+pre;fzj-inm1-bda_siibra-explorer;927bcde802131edd843a65613a288278226e414b;Xiao Gui <xgui3783@gmail.com>;2024-04-16 14:05:47;"maint: remove HOSTNAME as deploy env var, typo, typing
+feat: add queried concept
+feat: added back btn to child feat (to compound feat)
+bugfix: dismiss plot when new feature is selected
+";2024-04
+pre;fzj-inm1-bda_siibra-explorer;e0ac748a54595d8ac2df08b6431738c2c4f0cea7;xgui3783 <xgui3783@gmail.com>;2024-04-16 14:09:50;"Merge pull request #1463 from FZJ-INM1-BDA/feat_featureEphAttr
+
+ephemeral attributes to feature panels";2024-04
+pre;fzj-inm1-bda_siibra-explorer;4aa3a8250fdb076b64c1f8cfdb962e6610681d74;Xiao Gui <xgui3783@gmail.com>;2024-04-18 12:39:18;"feat: added code snippet
+";2024-04
+pre;fzj-inm1-bda_siibra-explorer;4c32255c2dfb51b5771dd3512e3af721b9c7516c;Xiao Gui <xgui3783@gmail.com>;2024-04-18 12:40:52;"fix lint
+";2024-04
+pre;fzj-inm1-bda_siibra-explorer;619b4111e4e851d457418bb14f845a3bed12c97b;Xiao Gui <xgui3783@gmail.com>;2024-04-24 12:52:42;"feat: add support for .annot label file
+";2024-04
+pre;fzj-inm1-bda_siibra-explorer;1f9d7e5cff5e2ad23629c2498d9248ff73b9e263;Xiao Gui <xgui3783@gmail.com>;2024-04-24 13:00:38;"fix lint
+";2024-04
+pre;fzj-inm1-bda_siibra-explorer;01d29400733438bff4f5065bfd05d5b5e541758c;xgui3783 <xgui3783@gmail.com>;2024-04-24 13:46:52;"Merge pull request #1464 from FZJ-INM1-BDA/feat_annotSupport
+
+feat: add support for .annot label file";2024-04
+pre;fzj-inm1-bda_siibra-explorer;f3809d0118b45b5cee8da741e3f39727b48744d2;Xiao Gui <xgui3783@gmail.com>;2024-04-25 15:07:05;"experimental wip: rework side panel UI
+";2024-04
+pre;fzj-inm1-bda_siibra-explorer;ac492442282462542c9df82d9ef4ca10acc12280;Xiao Gui <xgui3783@gmail.com>;2024-04-26 09:41:05;"maint: update ebrains helm
+";2024-04
+pre;fzj-inm1-bda_siibra-explorer;7b28dcd43ccd5afea2824df5719c021226c133b2;Xiao Gui <xgui3783@gmail.com>;2024-04-26 14:06:27;"maint: add redirection
+";2024-04
+post;fzj-inm1-bda_siibra-explorer;3e1c24e37f49e5b858475e156d403919e05b7518;Xiao Gui <xgui3783@gmail.com>;2024-07-01 13:36:46;"feat: download atlas with bbox param
+";2024-07
+post;fzj-inm1-bda_siibra-explorer;9bf3c7536952cc950b6f109497ad0ea1a4a5d85d;Xiao Gui <xgui3783@gmail.com>;2024-07-01 13:38:48;"fix lint
+";2024-07
+post;fzj-inm1-bda_siibra-explorer;9c31804295df29ccba3610759ae9c80cace94c39;Xiao Gui <xgui3783@gmail.com>;2024-07-01 15:35:28;"fix: expected siibra api version
+";2024-07
+post;fzj-inm1-bda_siibra-explorer;41e77484a2fb00e9bc583bfa053426fe02460418;xgui3783 <xgui3783@gmail.com>;2024-07-02 07:41:01;"Merge pull request #1466 from FZJ-INM1-BDA/feat_dlBbox
+
+feat: download atlas with bbox param, meta.json";2024-07
+post;fzj-inm1-bda_siibra-explorer;802b497c279589f0245c883623d03cb8e14b1ffa;Xiao Gui <xgui3783@gmail.com>;2024-07-02 08:14:12;"maint: move code snippet to experimental, remove legacy deployments
+";2024-07
+post;fzj-inm1-bda_siibra-explorer;aa01560954999895cec1afc35f55d0ad35fffba4;Xiao Gui <xgui3783@gmail.com>;2024-07-02 08:52:57;"fix: login redirect
+";2024-07
+post;fzj-inm1-bda_siibra-explorer;7fdd6af21d2e0ed0a2a21db496a660bb3d66c04f;Xiao Gui <xgui3783@gmail.com>;2024-07-02 11:59:47;"fix: select jba31 as default atlas
+";2024-07
+post;fzj-inm1-bda_siibra-explorer;06dd4ceba39269e9c15bc04527d68f903e733e0d;Xiao Gui <xgui3783@gmail.com>;2024-07-08 10:40:44;"revert: connectivity browser use conn component
+revert: intents & compound features
+fix: fsaverage ambiguous labels
+fix: julichbrain 3.1 as default parcellation if nothing else is selected
+";2024-07
+post;fzj-inm1-bda_siibra-explorer;8421d269c84b27d72fd479d532f681425059f556;xgui3783 <xgui3783@gmail.com>;2024-07-08 10:41:36;"Merge pull request #1450 from FZJ-INM1-BDA/staging
+
+v2.14.5";2024-07
+post;fzj-inm1-bda_siibra-explorer;e6992721392047940262d3155d571aa25ed5bd97;Xiao Gui <xgui3783@gmail.com>;2024-07-22 13:17:53;"fix: gcs json API
+feat: (experimental) .pointcloud drag and drop
+";2024-07
+pre;smhyatt_deforest-watch-with-bfast-in-cuda;512295c2f961abe899d5fed3d7208cc1a922a05e;S.Hyatt <smhyatt@protonmail.com>;2020-04-13 14:03:34;"Seperating final code from draft work.
+";2020-04
+pre;smhyatt_deforest-watch-with-bfast-in-cuda;95e9ad4b25aa3cef2139c932e16cab94a7b775d1;S.Hyatt <smhyatt@protonmail.com>;2020-04-13 14:30:00;"Overall README
+";2020-04
+pre;smhyatt_deforest-watch-with-bfast-in-cuda;540d1f2645c8f033f6307284da9d1f7c1c04bce7;S.Hyatt <smhyatt@protonmail.com>;2020-04-13 14:30:46;"Overall README
+";2020-04
+pre;smhyatt_deforest-watch-with-bfast-in-cuda;793f3f5b2ffbfb7b7e7cedafad164bc8bafb63a9;S.Hyatt <smhyatt@protonmail.com>;2020-04-13 14:31:59;"Additional README
+";2020-04
+pre;smhyatt_deforest-watch-with-bfast-in-cuda;7ec43bcd6cfbafed4b720d6a079a3e40d519e936;S.Hyatt <smhyatt@protonmail.com>;2020-04-13 14:32:53;"README
+";2020-04
+pre;smhyatt_deforest-watch-with-bfast-in-cuda;51f176b1bb6fc0dbce02c7e09efaeedc89dcf551;S.Hyatt <smhyatt@protonmail.com>;2020-04-13 14:36:24;"README
+";2020-04
+pre;smhyatt_deforest-watch-with-bfast-in-cuda;bf81ded76b3c6db2e6065f27c84b10d6bac01470;S.Hyatt <smhyatt@protonmail.com>;2020-04-13 14:40:47;"README
+";2020-04
+pre;smhyatt_deforest-watch-with-bfast-in-cuda;3af14bf4b6c85dfe62d441b37d77c693e5133900;S.Hyatt <smhyatt@protonmail.com>;2020-06-21 10:58:07;"Test if redundant.
+";2020-06
+pre;smhyatt_deforest-watch-with-bfast-in-cuda;127e71a5aaac5af7ee3c1bc95aa28e1bc050e31f;S.Hyatt <smhyatt@protonmail.com>;2020-06-21 12:11:33;"Test if redundant.
+";2020-06
+pre;smhyatt_deforest-watch-with-bfast-in-cuda;e21c9f2c056b0e48c4e40d488451c1fb8bfc1f98;S.Hyatt <smhyatt@protonmail.com>;2021-07-13 15:06:05;"clean.
+";2021-07
+post;smhyatt_deforest-watch-with-bfast-in-cuda;b9a87db96e89dad8ba15b1ae70c335b6eede8799;Sarah Hyatt <smhyatt@protonmail.com>;2025-03-18 17:41:59;Delete scraps-messy-folder directory;2025-03
+pre;eurostat_statistics-coded;f3f61603b82232ad501b9b78b564b92d83f70da7;Mészáros Mátyás <34501282+mmatyi@users.noreply.github.com>;2021-09-15 11:20:18;Update start;2021-09
+pre;eurostat_statistics-coded;140ce4a202e5d7d57ed3df283b7dc957c911c8fd;Mészáros Mátyás <34501282+mmatyi@users.noreply.github.com>;2021-09-15 11:55:19;Update apt.txt;2021-09
+pre;eurostat_statistics-coded;434f89548cf1bd12d207fa344d07a912a27e1ea9;Mészáros Mátyás <34501282+mmatyi@users.noreply.github.com>;2021-09-15 13:08:42;Update environment.yml;2021-09
+pre;eurostat_statistics-coded;abab0ae241aa30a7a93127f302d6d0f8f1db809d;Mészáros Mátyás <34501282+mmatyi@users.noreply.github.com>;2021-09-15 15:46:40;Update environment.yml;2021-09
+pre;eurostat_statistics-coded;3a994eb1d120ffb69d16b9c194b6487fa01acdaa;Mészáros Mátyás <34501282+mmatyi@users.noreply.github.com>;2021-09-17 13:54:09;Add files via upload;2021-09
+pre;eurostat_statistics-coded;85c23af4b537cdbb827781350857a612792e8708;Mészáros Mátyás <34501282+mmatyi@users.noreply.github.com>;2021-09-17 13:54:58;Update install.R;2021-09
+pre;eurostat_statistics-coded;b010c61a15c9f99a9c34bd59a32a62380dd17e46;Mészáros Mátyás <34501282+mmatyi@users.noreply.github.com>;2021-09-21 06:39:47;Update README.md;2021-09
+pre;eurostat_statistics-coded;c37775869298e63a5355cf5f233dbf78cae5d78a;Mészáros Mátyás Tamás <matyas.meszaros@ec.europa.eu>;2022-01-27 09:53:01;"corecting for different years
+";2022-01
+pre;eurostat_statistics-coded;ab6acdd7ea163517f863fb1c12280601ba5799dd;Mészáros Mátyás <34501282+mmatyi@users.noreply.github.com>;2022-05-04 09:39:13;"updated first figure  
+
+""Trade investment"" notebook prepared by D.Gojsic";2022-05
+pre;eurostat_statistics-coded;e9a758bc82d370d79b6c43ab505dad093e0aedc6;Mészáros Mátyás <34501282+mmatyi@users.noreply.github.com>;2022-05-04 11:24:56;Update README.md;2022-05
+post;eurostat_statistics-coded;5df256434733a21bfee35a9164932404c38e8f39;k41m4n <ronkowski@yahoo.com>;2024-09-10 14:59:46;"Update README.md
+
+Change of the contact address";2024-09
+post;eurostat_statistics-coded;d77d9782779ec20f3aaba4f24ab472acbb61e292;k41m4n <ronkowski@yahoo.com>;2024-09-10 15:03:54;Update README.md;2024-09
+post;eurostat_statistics-coded;a1c9a66eb3ce79b5c190288ef0d15ab66b79a466;k41m4n <ronkowski@yahoo.com>;2024-09-10 15:05:32;Update README.md;2024-09
+post;eurostat_statistics-coded;bdeea53f0d46e50730e454af9b12e92674c38bb1;k41m4n <ronkowski@yahoo.com>;2025-01-30 16:36:14;Add files via upload;2025-01
+post;eurostat_statistics-coded;566270abe606f42bf825722cd827c5bf3b9a4592;k41m4n <ronkowski@yahoo.com>;2025-01-30 16:38:14;Add files via upload;2025-01
+post;eurostat_statistics-coded;d975f0131654a9c4532acd04b3308c61a17f2d8a;k41m4n <ronkowski@yahoo.com>;2025-01-30 17:01:28;Add files via upload;2025-01
+post;eurostat_statistics-coded;ca58d8cad5a33ed5a6e5c97dd0cb1cfb29fbede3;k41m4n <ronkowski@yahoo.com>;2025-03-20 13:04:12;Add files via upload;2025-03
+pre;tnagler_vinecopula;73d167e603fd150a5ad8c99d3cc3719965de4ca3;tnagler <thomas.nagler@tum.de>;2023-01-18 17:07:48;"fix familycheck
+";2023-01
+pre;tnagler_vinecopula;216735bf9f7e73bb97cdbc34893e3a614a570161;tnagler <thomas.nagler@tum.de>;2023-01-18 17:34:51;"bump version
+";2023-01
+pre;tnagler_vinecopula;245c5bfb198c7d38440a43371945047c08ba4d79;tnagler <thomas.nagler@tum.de>;2023-01-19 14:49:45;"fix link in README
+";2023-01
+pre;tnagler_vinecopula;1ba23c836ab4a4731caa4916d919a8d32e348519;tnagler <thomas.nagler@tum.de>;2023-02-20 10:44:11;"add EmpCDF()
+";2023-02
+pre;tnagler_vinecopula;49ffd153d3b47ed058096f377209a254b0ef455c;tnagler <thomas.nagler@tum.de>;2023-02-20 10:45:23;"fix pobs() docs
+";2023-02
+pre;tnagler_vinecopula;b06c8f91207cdac3b6dd8e8eda6c7c870e921f5f;tnagler <thomas.nagler@tum.de>;2023-07-08 20:50:26;"Release 2.5.0
+";2023-07
+pre;tnagler_vinecopula;dc89c1bd61dcb94fdc1e076fbd3e5a88556f76d8;tnagler <thomas.nagler@tum.de>;2023-07-08 20:53:44;"update actions script
+";2023-07
+pre;tnagler_vinecopula;039011a82772cc967338d9395eab9874792f08d5;tnagler <thomas.nagler@tum.de>;2023-07-08 20:57:35;"add ecdf to NAMESPACE
+";2023-07
+pre;tnagler_vinecopula;c0652e7bf3d7630d274bdea3f617afe44e9ced5b;Thomas Nagler <tnagler@users.noreply.github.com>;2023-07-12 15:31:48;"Release 2.5.0 (#88)
+
+* Release 2.5.0
+
+* update actions script
+
+* add ecdf to NAMESPACE
+
+---------
+
+Co-authored-by: tnagler <thomas.nagler@tum.de>";2023-07
+pre;tnagler_vinecopula;3540b0a957cae2ce11df6ffdbda92fc259586711;tnagler <thomas.nagler@tum.de>;2023-07-12 15:33:23;"fix rotated log-derivatives
+";2023-07
+post;tnagler_vinecopula;b7f942c5d9522dfd622f1dc2164bb6d0f5c5dd9b;Thomas Nagler <tnagler@users.noreply.github.com>;2024-02-21 17:00:16;fix missing BB8 in BiCopName (solves #91);2024-02
+post;tnagler_vinecopula;7455376ac592091887268644b95cda2664041810;Thomas Nagler <tnagler@users.noreply.github.com>;2024-03-04 11:35:23;"fix missing BB8 in BiCopName (solves #91) (#92)
+
+";2024-03
+post;tnagler_vinecopula;32ef6face39d77aac88dcc447aae41e0eccb35f3;tnagler <thomas.nagler@tum.de>;2024-08-19 12:45:45;"fix Rd issues
+";2024-08
+post;tnagler_vinecopula;e216f3aadc59fd6de46b22c8f387c9da4e7fd19d;tnagler <thomas.nagler@tum.de>;2024-08-19 12:59:32;"comply with STRICT_R_HEADERS
+";2024-08
+post;tnagler_vinecopula;ce8250fa3ff9948fc6b110e786de85dc254b7a3e;tnagler <thomas.nagler@tum.de>;2024-08-19 13:04:24;"fix unused variable
+";2024-08
+post;tnagler_vinecopula;5ba086d258649c93a63d7a2e90cd1f1b52b3ce84;tnagler <thomas.nagler@tum.de>;2024-08-19 13:08:15;"update NEWS
+";2024-08
+post;tnagler_vinecopula;a486beac0c3e3392ec9788c57206f292f384f942;tnagler <thomas.nagler@tum.de>;2024-08-19 13:11:18;"update actions script
+";2024-08
+post;tnagler_vinecopula;6519f4150093bb2c4bb122e8e37a9b97fc930078;tnagler <thomas.nagler@tum.de>;2024-08-19 13:25:50;"bump version + build site
+";2024-08
+post;tnagler_vinecopula;c7fd4deae57e87f392b8b24d9d5620e2abd0c679;Thibault Vatter <thibault.vatter@gmail.com>;2024-11-12 08:56:38;"RVineCDF
+";2024-11
+post;tnagler_vinecopula;3c6f63da4a4244eef3e8f4cbc40b8c6aa3fb41f2;Thibault Vatter <thibault.vatter@gmail.com>;2024-11-12 09:23:20;"Less like a VineCopula nOOb
+";2024-11
+pre;deeptime-ml_deeptime;d21ed9c725409a066e7b5f1af22e5cf2f7bfaad3;marscher <m.scherer@fu-berlin.de>;2018-03-27 16:19:43;"added pybind v2.2.2
+";2018-03
+pre;deeptime-ml_deeptime;47e8d8ce747dfc780b5fd735099bd16c78024c69;Martin K. Scherer <marscher@users.noreply.github.com>;2018-03-27 16:23:36;Create README.md;2018-03
+pre;deeptime-ml_deeptime;740e901b44963781faafaec528d64c85d969f4e9;marscher <m.scherer@fu-berlin.de>;2018-03-27 16:32:39;"added versioneer
+";2018-03
+pre;deeptime-ml_deeptime;d95808407bce63322b96a7281807d0ff1e245f63;marscher <m.scherer@fu-berlin.de>;2018-03-27 16:32:58;"amend
+";2018-03
+pre;deeptime-ml_deeptime;fcc4fcd41aa23b2ebd042780e6f10001fa97a2c9;marscher <m.scherer@fu-berlin.de>;2018-03-27 16:33:09;"added travis
+";2018-03
+pre;deeptime-ml_deeptime;72f8a07c9c01eff2ca16744922312f070f98b2a9;marscher <m.scherer@fu-berlin.de>;2018-03-27 16:33:55;"Add 'devtools/' from commit '327f19406fe6fc27c1d3135711d3bed986a299cd'
+
+git-subtree-dir: devtools
+git-subtree-mainline: fcc4fcd41aa23b2ebd042780e6f10001fa97a2c9
+git-subtree-split: 327f19406fe6fc27c1d3135711d3bed986a299cd
+";2018-03
+pre;deeptime-ml_deeptime;3755556067acb3083b63758f8ebf8c3434cbbea7;marscher <m.scherer@fu-berlin.de>;2018-03-27 16:39:28;"up
+";2018-03
+pre;deeptime-ml_deeptime;b7189e8eafceaf2c7ab537ced49b0285d2e97116;marscher <m.scherer@fu-berlin.de>;2018-03-27 16:45:38;"[travis] no testing on osx (yet)
+";2018-03
+pre;deeptime-ml_deeptime;6fd549920e12bde014fdb2e5a2bb43c5db2d9f10;marscher <m.scherer@fu-berlin.de>;2018-03-27 16:53:35;"fix imports
+";2018-03
+pre;deeptime-ml_deeptime;c5374ea7b4618284bc31d6b9a3809b225c6df7ce;marscher <m.scherer@fu-berlin.de>;2018-03-29 11:56:32;"removed pyemma imports
+";2018-03
+post;deeptime-ml_deeptime;642cba7633b44040b48e3df0771d1445ad081515;Moritz Hoffmann <clonker@gmail.com>;2019-01-31 16:44:25;"api draft dataset (wip)
+";2019-01
+post;deeptime-ml_deeptime;c5ad26505ab550e1bce58f71e95d915068b1351c;Moritz Hoffmann <clonker@gmail.com>;2019-02-01 08:55:25;"[dependencies] update pybind to v2.2.4
+";2019-02
+post;deeptime-ml_deeptime;e35d6b59ca0f0dc3c95163a234d37294948c0c3b;Moritz Hoffmann <clonker@gmail.com>;2019-02-01 09:38:57;"[cpp] draft cpp subproject structure
+";2019-02
+post;deeptime-ml_deeptime;b4f9af0dab176ab932ed32e3ec7b032f2886ee30;Moritz Hoffmann <clonker@gmail.com>;2019-02-06 18:18:37;"copy-pasted code and reduced functionality for better maintainability
+";2019-02
+post;deeptime-ml_deeptime;4dbc6868cbe2694ab96cc7fa88ac07decd26b879;Moritz Hoffmann <clonker@gmail.com>;2019-02-07 15:37:26;"setup related things
+";2019-02
+post;deeptime-ml_deeptime;57f0986c2b02ae76cf5b09500f8af4fd4a558200;Moritz Hoffmann <clonker@gmail.com>;2019-02-07 16:31:43;"fixed first test
+";2019-02
+post;deeptime-ml_deeptime;a48592c21124bb0e4e21907767a23bcbfa8c366c;Moritz Hoffmann <clonker@gmail.com>;2019-02-07 17:24:16;"covar tests wip
+";2019-02
+post;deeptime-ml_deeptime;2046d68d906953aec1ac46ebe6b08582e6d2280f;Moritz Hoffmann <clonker@gmail.com>;2019-02-07 17:50:31;"covar tests wip
+";2019-02
+post;deeptime-ml_deeptime;0f63cda09f779da4ed0cc5d3a5b48207e1c57a15;Moritz Hoffmann <clonker@gmail.com>;2019-02-07 18:20:37;"demo
+";2019-02
+post;deeptime-ml_deeptime;b48d68fe0c167b7824ec79d776ef49b19e8605e9;Moritz Hoffmann <clonker@gmail.com>;2019-02-07 18:24:45;"improve comment
+";2019-02
+pre;aiidateam_aiida-tutorials;8eb5d0f2224143f975913eabd95461f8eb061dd1;Alexander Goscinski <alexander.goscinski@posteo.de>;2024-09-12 10:08:05;"debug ci
+";2024-09
+pre;aiidateam_aiida-tutorials;a028290a797e429f5d9aaae65fdcfcf4279f7dab;Julian Geiger <julian.geiger@psi.ch>;2024-09-12 10:11:53;"📝 DOCS: Updates for compatibility with AiiDA v2.5.1 (#469)
+
+This PR fixes some issues warnings that arose when going through the tutorials with AiiDA v2.5.1, mainly::
+- Update the `verdi code setup` to `verdi code create` commands
+- Update the SSSP version from 1.1 to 1.3 to reflect the change of default in `aiida-pseudo`
+- Prepend `core` in the `DataFactory` calls where applicable, as well as `query.queryhelp` -> `query.as_dict()` in the `querying` notebook";2024-09
+pre;aiidateam_aiida-tutorials;6118d30f3ae6765f952a05fce5d9397d4411f458;Alexander Goscinski <alexander.goscinski@posteo.de>;2024-09-12 10:19:13;"debug ci
+";2024-09
+pre;aiidateam_aiida-tutorials;e38a3724cae64de2208fa3a2c97c8dc08e953ef6;Alexander Goscinski <alexander.goscinski@posteo.de>;2024-09-12 10:29:13;"debug ci
+";2024-09
+pre;aiidateam_aiida-tutorials;32bde7f9e346ef1f093e4858645554359ca94d26;Alexander Goscinski <alexander.goscinski@posteo.de>;2024-09-12 10:34:51;"move linkcheck to RTD
+";2024-09
+pre;aiidateam_aiida-tutorials;7620580a6f6ba55dec06967ee4749aa5a59ad47a;Alexander Goscinski <alexander.goscinski@posteo.de>;2024-09-12 11:18:58;"debug rtd
+";2024-09
+pre;aiidateam_aiida-tutorials;e531860b493445a1fe02b57a3fecce12a0261e2b;Alexander Goscinski <alexander.goscinski@posteo.de>;2024-09-12 11:31:11;"add html to link ignore, also add_css_file
+";2024-09
+pre;aiidateam_aiida-tutorials;55210f278b204f975a614768572798c563a63f3f;Alexander Goscinski <alexander.goscinski@posteo.de>;2024-09-12 12:08:21;"add regex correctly
+";2024-09
+pre;aiidateam_aiida-tutorials;61ce7e60ab6709a82d394f437e41d54f3c953048;Alexander Goscinski <alexander.goscinski@posteo.de>;2024-09-12 12:38:52;Apply suggestions from code review;2024-09
+pre;aiidateam_aiida-tutorials;ef1b79d435bebade4d975a7f427fdc092a3c0a12;Alexander Goscinski <alex.goscinski@posteo.de>;2024-09-12 12:38:55;"Merge 61ce7e60ab6709a82d394f437e41d54f3c953048 into a028290a797e429f5d9aaae65fdcfcf4279f7dab
+";2024-09
+post;aiidateam_aiida-tutorials;240d773a55de967ed92d71b081326b124dd8b2af;Subindev D <64056430+subindev-d@users.noreply.github.com>;2025-10-02 11:02:03;"Update setup.md
+
+its profile , not profiles";2025-10
+post;aiidateam_aiida-tutorials;62bc6859e1368c107f52eedb93b6865fdeeee70a;Subindev D <64056430+subindev-d@users.noreply.github.com>;2025-10-02 11:27:44;"🐭 Setup: fix typo in `aiidalab-launch` command
+
+";2025-10
+post;aiidateam_aiida-tutorials;93a8fe5be98959d8a12920fd84f418a667d02ff5;Alexander Goscinski <alex.goscinski@posteo.de>;2025-10-02 11:28:57;"Merge 61ce7e60ab6709a82d394f437e41d54f3c953048 into 62bc6859e1368c107f52eedb93b6865fdeeee70a
+";2025-10
+pre;lepy_phuzzy;2e2c730c41cee99420be832f1936ced54c80b030;Streamlit BadgeBot <74741091+streamlit-badge-bot@users.noreply.github.com>;2020-11-28 19:45:17;Added Streamlit app badge for discoverability;2020-11
+pre;lepy_phuzzy;6d123f41cf0a395948cf892d720affc69b660d81;pyup-bot <github-bot@pyup.io>;2020-11-30 17:24:13;Pin shgo to latest version 0.4.8;2020-11
+pre;lepy_phuzzy;e98786be1c248f7762b96ec3458861c29a460a9b;pyup-bot <github-bot@pyup.io>;2020-11-30 17:24:14;Pin xarray to latest version 0.16.1;2020-11
+pre;lepy_phuzzy;453d402f17c67a351b77ed74058d4eef12a8dbfd;lepy <lepy@mailbox.org>;2020-12-03 18:40:20;"add update function for FuzzyNumber (wip)
+";2020-12
+pre;lepy_phuzzy;5d8edf40fa5f775e1273902a64f083408bfa9d0d;pyup-bot <github-bot@pyup.io>;2020-12-07 17:22:02;Pin shgo to latest version 0.4.8;2020-12
+pre;lepy_phuzzy;0a43a83e24471e618e6cb7184c4676d57da6c9c2;pyup-bot <github-bot@pyup.io>;2020-12-07 17:22:03;Pin xarray to latest version 0.16.2;2020-12
+pre;lepy_phuzzy;8b04867d2d71f2e4afa642b0b61cebb4cc6dbbee;pyup.io bot <github-bot@pyup.io>;2020-12-07 17:22:06;"Merge 0a43a83e24471e618e6cb7184c4676d57da6c9c2 into 453d402f17c67a351b77ed74058d4eef12a8dbfd
+";2020-12
+pre;lepy_phuzzy;19af80114fd1807af1a4e9ec3f758c228cb89e73;lepy <lepy@mailbox.org>;2020-12-10 18:31:05;"fix travis
+";2020-12
+pre;lepy_phuzzy;22321dadc1d70b25d1213ddabcdbb99c40d15d6d;lepy <lepy@mailbox.org>;2020-12-11 07:08:59;"fix travis
+";2020-12
+pre;lepy_phuzzy;4e05cd87a9da359a72d09a7a9a771103a243eb57;Streamlit BadgeBot <74741091+streamlit-badge-bot@users.noreply.github.com>;2020-12-12 15:15:06;"Merge 2e2c730c41cee99420be832f1936ced54c80b030 into 22321dadc1d70b25d1213ddabcdbb99c40d15d6d
+";2020-12
+post;lepy_phuzzy;ef5275da7af3ed56574f12d209f73033b72fea92;lepy <lepy@mailbox.org>;2025-03-20 08:34:30;"fix np.float -> float
+";2025-03
+post;lepy_phuzzy;2c13c5b606e7054ae5770e3c61c36dc20bfdd4ca;lepy <lepy@mailbox.org>;2025-03-20 10:11:44;"fix plots
+";2025-03
+post;lepy_phuzzy;91941d1ce02031042d468e82280428ab5bfedb61;lepy <lepy@mailbox.org>;2025-03-20 14:48:35;"add shape Constant
+";2025-03
+post;lepy_phuzzy;9dbde96c8054dcf8989a1218dca82c91b7ebfde1;lepy <lepy@mailbox.org>;2025-03-21 09:30:32;"fix plots
+";2025-03
+post;lepy_phuzzy;57ce4f9c91f230a33e680d1cccf17a63b8289796;Streamlit BadgeBot <74741091+streamlit-badge-bot@users.noreply.github.com>;2025-04-01 07:23:56;"Merge 2e2c730c41cee99420be832f1936ced54c80b030 into 9dbde96c8054dcf8989a1218dca82c91b7ebfde1
+";2025-04
+post;lepy_phuzzy;69ba0f89dfa820968d105cfa054a387a4ffae5f7;lepy <lepy@mailbox.org>;2025-11-14 09:06:16;"add TruncLogNorm
+";2025-11
+post;lepy_phuzzy;33736fca859226f1225c4308418462ce6833f76c;lepy <lepy@mailbox.org>;2025-11-24 10:36:16;"add TruncLogNorm
+";2025-11
+post;lepy_phuzzy;0f25ed5d68b19291ff36174243527416e5b8a2c5;Streamlit BadgeBot <74741091+streamlit-badge-bot@users.noreply.github.com>;2025-12-31 11:16:57;"Merge 2e2c730c41cee99420be832f1936ced54c80b030 into 33736fca859226f1225c4308418462ce6833f76c
+";2025-12
+pre;dpiparo_vdt;ae918b127644fead6e9e7b619a1eaa3c2ccb43ba;Danilo Piparo <danilo.piparo@cern.ch>;2018-03-29 12:30:26;"Update Release Notes
+";2018-03
+pre;dpiparo_vdt;3cd969d8ee48b99ccfea9e3062274a2832cceeec;Danilo Piparo <danilo.piparo@cern.ch>;2018-03-29 12:31:56;"Release notes for 0.4.1
+";2018-03
+pre;dpiparo_vdt;330ca757ff9b59b1195d945f16eb86185c20383a;Danilo Piparo <danilo.piparo@cern.ch>;2018-07-13 09:28:03;Update ReadMe.md;2018-07
+pre;dpiparo_vdt;525ac4716e28d69f2e4f04003f0569631c0231b4;Ryan Schmidt <git@ryandesign.com>;2018-07-28 20:59:41;"Fix name of macOS
+";2018-07
+pre;dpiparo_vdt;266c2eba8e4ed4c8726be4881a9a332d2ff7eee2;Attila Krasznahorkay <Attila.Krasznahorkay@cern.ch>;2018-10-23 12:57:31;"Tried to remove all hardcoded python paths from the code.
+
+This is to make it possible to build/use VDT with Python *not* installed
+under /usr/bin.
+";2018-10
+pre;dpiparo_vdt;a7782f355311cf0184b552755eb978d161451efe;Danilo Piparo <danilo.piparo@cern.ch>;2018-10-23 13:28:36;"Merge pull request #7 from krasznaa/PythonUsageFix-master-20181023
+
+Python Usage Fixes, master branch (2018.10.23.)";2018-10
+pre;dpiparo_vdt;0b8c03051886589ebaafd7cffffef13592aafd94;Ryan Schmidt <ryandesign@macports.org>;2018-10-24 06:12:23;"Merge 525ac4716e28d69f2e4f04003f0569631c0231b4 into a7782f355311cf0184b552755eb978d161451efe
+";2018-10
+pre;dpiparo_vdt;ea5a33cd72d385be6fc91325a8b9dbd644cb197c;Danilo Piparo <danilo.piparo@cern.ch>;2019-02-05 09:44:21;Update ReadMe.md;2019-02
+pre;dpiparo_vdt;c5c0817a308e0da4d711456953e34449bc46c37d;Danilo Piparo <danilo.piparo@cern.ch>;2019-02-05 09:49:11;"Merge pull request #6 from ryandesign/macOS
+
+Fix name of macOS";2019-02
+pre;dpiparo_vdt;c57ca420d0d642b577313885bbaaedf4d63e01d5;Danilo Piparo <danilo.piparo@cern.ch>;2019-02-05 10:19:40;"[Diag][#9] Fix diagnostic compilation on macos 10.14
+";2019-02
+post;dpiparo_vdt;c9d153936ff8e2eeae168e589c76f9a4d5d38a6d;Axel Naumann <Axel.Naumann@cern.ch>;2022-03-10 15:45:27;"[cmake] Allow python3 to be found; fixes newest / future macOS.
+
+And anyway, find_package (PythonInterp) is deprecated since a long time.
+";2022-03
+post;dpiparo_vdt;993d5984abf1e57d775a1e077fe49b3be3dd7dc6;Danilo Piparo <danilo.piparo@cern.ch>;2022-03-15 16:11:50;"Merge pull request #12 from Axel-Naumann/findPython
+
+[cmake] Allow python3 to be found; fixes newest / future macOS.";2022-03
+post;dpiparo_vdt;5ba88c7eb24df289699756d6d61c9a138cba92b9;Gürkan Myczko <tar@debian.org>;2022-08-22 11:09:36;"numpyBootstrap.csh: add csh shebang
+";2022-08
+post;dpiparo_vdt;cc0ded2cf5b2c6c500f15de154af7ddc379397e9;Stephan Lachnit <stephanlachnit@debian.org>;2022-08-22 11:10:12;"Merge 5ba88c7eb24df289699756d6d61c9a138cba92b9 into 993d5984abf1e57d775a1e077fe49b3be3dd7dc6
+";2022-08
+post;dpiparo_vdt;88c3c8df8bf67f9db67e1ae74f6b6f393682b1d1;Stephan Lachnit <stephanlachnit@debian.org>;2022-08-22 11:21:54;"CMake: use proper install dirs
+
+Signed-off-by: Stephan Lachnit <stephanlachnit@debian.org>
+";2022-08
+post;dpiparo_vdt;fc8550d96c2746a5d3ed0b637cc9579959728b93;Stephan Lachnit <stephanlachnit@debian.org>;2022-08-22 11:23:32;"Merge 88c3c8df8bf67f9db67e1ae74f6b6f393682b1d1 into 993d5984abf1e57d775a1e077fe49b3be3dd7dc6
+";2022-08
+post;dpiparo_vdt;93b10b8d848afaef2e3f3fb61751472bbd68ec27;Stephan Lachnit <stephanlachnit@debian.org>;2022-08-22 11:25:17;"CMake: add SOVERSION
+
+Signed-off-by: Stephan Lachnit <stephanlachnit@debian.org>
+";2022-08
+post;dpiparo_vdt;a627bf5e42287688e933d2486feb10edbe304af4;Stephan Lachnit <stephanlachnit@debian.org>;2022-08-22 11:28:23;"Merge 93b10b8d848afaef2e3f3fb61751472bbd68ec27 into 993d5984abf1e57d775a1e077fe49b3be3dd7dc6
+";2022-08
+post;dpiparo_vdt;774f44723485e4afd392082bbcff73f2707c83a2;Ian Briggs <ianbriggsutah@gmail.com>;2023-07-10 22:14:18;Reorder expression of better accuracy;2023-07
+post;dpiparo_vdt;7d0c9e97e9395087807ba2d1f3efe143ddc428f1;Danilo Piparo <danilo.piparo@cern.ch>;2025-03-26 13:51:34;Remove broken link from the ReadMe.md;2025-03
